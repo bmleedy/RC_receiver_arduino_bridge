@@ -51,4 +51,7 @@ void loop() {
   // End the line with a '\n'
   Serial.println("");
 
+  // Note: there's no delay in this loop.  We will read pulses as quickly as possible.
+  //   In practice, this is about 60 ms cycle rate (17Hz)
+  
 }
